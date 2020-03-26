@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JS" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="470.4000000000001" scrolly="-76" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-352" y="173">
+    <mutation>
+      <arg name="x"/>
+    </mutation>
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="ZNCgCl%|5$pH1j^{~4IV" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Ej)Qi/(oH~a|J$p[^f.j" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="+D9O=%NCfM.SFKv5c#BD" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+            <field name="VAR">x</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="QfbYe2(SGhSnjpoMpz]*" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field name="TEXT">Texto a ser adicionado ao bloco.</field>
+      </block>
+    </value>
+  </block>
+</blockly>
